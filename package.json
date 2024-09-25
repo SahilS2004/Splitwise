@@ -1,0 +1,16 @@
+{
+  "name": "splitwise",
+  "version": "1.0.0",
+  "description": "a fullstack SplitWise clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "backend"
+  ],
+  "author": "Sahil Sarawgi",
+  "license": "ISC"
+}
