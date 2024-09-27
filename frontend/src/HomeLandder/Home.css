@@ -13,6 +13,9 @@
     font-size: xx-large;
     text-decoration: none;
   }
+  .navbar_2 img{
+    height: 2rem;
+  }
   
   .login_logout, .sign_up{
     background-color: #005eff;

@@ -3,6 +3,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faMailBulk, faRightToBracket, faUserPlus, faSignOutAlt, faFlagCheckered, faMoneyBills} from '@fortawesome/free-solid-svg-icons';
 // import { Link, useNavigate } from 'react-router-dom';
 import coderImage from './coder.png';
+import splitLogo from './splitwise.png';
 import { faGithub, faInstagram} from '@fortawesome/free-brands-svg-icons';
 import './Home.css';
 // import { getAuth, signOut, onAuthStateChanged } from 'firebase/auth';
@@ -39,7 +40,7 @@ export default function Home() {
   return (
     <div>
         <div class="navbar_2" fit>
-        <h2><FontAwesomeIcon icon={faMoneyBills}/>  Splitwise.</h2>
+        <h2><img src={splitLogo} alt='LogoSplitwise'/>  Splitwise.</h2>
         <div>
         {/* {loggedInUser ? (
             <>
