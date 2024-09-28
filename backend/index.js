@@ -16,7 +16,7 @@ app.use((req, res, next) => {
 });
 
 app.get('/', async function (req, res) {
-    const users = await users.create({ username: 'value' , email: 'value@gmail.com', password:'value123'});
+    const j = await users.create({ user_id: '1' ,username: 'value' , email: 'value@gmail.com', password_hash:'value123'});
     console.log(req.body)
     res.send('Hello World')
   })
